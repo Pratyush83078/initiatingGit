@@ -1,0 +1,6 @@
+killall -3 gnome-shell or killall -SIGQUIT gnome-shell
+BEFORE GNOME 3VERSION: gnome-shell --replace &
+
+pkill firefox;
+pkill -9 firefox; //for force kill
+

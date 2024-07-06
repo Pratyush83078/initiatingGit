@@ -1,0 +1,10 @@
+LINUX TERMINAL ; BASH-SHELL SCRIPTING ; 
+shell is command line
+executable file: /usr/bin/ or /usr/local/bin  use echo $PATH
+
+mkdir , ls, cd (cd error),open and without open only path,  ls -a (hidden), cat (display), 
+
+- environment variable: names value used to c
+	echo $PATH
+	
+-alias 20;

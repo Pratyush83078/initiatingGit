@@ -1,0 +1,60 @@
+arpanet (mit, stanford, ucla , utah) using TCP protocols; tcp/ip
+Protocols: rules set by 
+problem:research automated sharing was missing ie link is linking to another document/research paper etc;
+then originate www: word wide web, Tim burner
+search engine: Yahoo first; 
+
+Protocols: set of rules and regulations ie to communications etc.ie sending emails to a person require a rules and regulations , internet society make these rules and regulations. 
+server:  localhost server and client itself, developer tools network status,method etc...
+client:
+
+Protocols : format/rules of data assign how data sent or receive etc;
+Tcp : not correpted , complete data
+Udp : like video conferencing  
+Http: web browser, 
+
+packets of data,
+Ip address : curl ifconfig.me -s, -s is not necessary
+
+Isp: airtel, jio etc
+global ip address, modem/router,
+Dhcp ,nat,
+modem decides
+
+as all applications have same ip address(for one device) therefore to send data to a particular app they defined 
+Port number:16 bits, 2^16
+reserved port:
+
+1kbps: 1kilobits/s 1000bits/s
+mbps: 1megabits/sec 10^6bits/s
+1gbps: 1gigabits/sec 10^9bits/s
+
+submarinecable.com: optical fibre from different coutry, mumbai, cheenai, kerala
+Pysically internet connected:
+wireless:
+
+INTERNET:
+	LAN: office,local area: ethernet cable, wifi, 
+	MAN: across a city
+	WAN:across a countries ie optical fibre cables;
+1)SONET:
+2)FRAME RELAY:
+
+TIER 1 Isp (india): tata chennai to singapore.Then , airtel jio etc.
+
+Topologies: 
+	bus;
+	ring;
+	star;
+	tree(bus-star);
+	mesh;expensive,scalability issue
+
+Structure of the network;
+OSI MODEL VERY IMP FOR INTERVIEW;
+	OSI model: 1:06:38 7layers 
+		application: software
+		presentation:app send data 
+		session , transport, network dataLink physical
+	
+
+

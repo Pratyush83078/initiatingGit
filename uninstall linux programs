@@ -1,0 +1,35 @@
+//DEBIAN BASED DISTRUBUTION; 
+
+sudo apt remove firefox;//remove only firefox not configuration all the assosiated dependiances
+sudo apt purge firefox ;// all system config files , not remove dependencies
+sudo apt autoremove // remove unneeded dependecies
+or sudo apt update
+home/.config //user config file can't touch by any package manager (for safety reason) so u have to remove it manually
+
+
+
+
+//ARCH LINUX DISTRUBUTION;
+sudo pacman -R program
+sudo pacman -Rns program//only user config remains
+ 
+ 
+ SNAP LIST // to see all installed snap packages
+ sudo snap install firefox
+ sudo find / -iname cornyjokes //searching in my root directory "/" cornyjokes;
+ sudo snap remove cornyjokes //removed everything from root but only remaining in home ie.user directory
+ 
+ FLATPACK LIST
+ sudo flatpak uninstall <packageName> //ie com.github.Eloston.UngoogledChromium// removed all except in home directory
+ 
+ 
+ for APPIMAGE go /home/dt/Application delete there
+ but don't forget to delete config from home directory yourself
+ 
+for tar.gz
+in file installing:./config && make && make sudo make install 
+uninstalling: sudo rm -rf pydoc3.12 ; /usr/local/bin; self installed app
+2nd method very simple and recommended
+sudo alien -d <compress-file-name> ; d means debian ; alien package change tar.gz to debian 
+TO INSTALL DEBIAN FILE ;
+sudo apt install <debian file-name> ; for deletion same as apt file deletion ie sudo apt purge firefox;

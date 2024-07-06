@@ -1,0 +1,9 @@
+compress and decompress
+
+command of file for a space in file name ie grocery list: grocery\ list
+gzip grocery\ list
+gunzip grocery\ list.gz
+
+tar cvf c:create, v:display output in terminal (verbose) ,f: file option
+tar cvf Bucky.tar Grocery/ List Favorite\ Movies
+tar xvf Bucky.tar
