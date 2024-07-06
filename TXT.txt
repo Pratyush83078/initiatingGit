@@ -3,4 +3,6 @@ BEFORE GNOME 3VERSION: gnome-shell --replace &
 
 pkill firefox;
 pkill -9 firefox; //for force kill
-
+sudo dpkg-reconfigure lightdm, gdm3
+xinput set-prop 11 "libinput Tapping Enabled" 1
+redshift -P -O 2500
