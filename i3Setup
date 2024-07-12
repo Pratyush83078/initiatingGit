@@ -1,0 +1,7 @@
+I3 INSTALLATION i3, startx(x11,xorg)
+light , redshift , $mod Mod4 , a file manager pacmanfm, terminal file manager (rover,nnn),aslatter/ppa (alacritty),
+
+generally i download packages by sudo apt install etc but after that i forget about it ..
+what is --no-startup-id
+
+nmcli dev wifi connect "iQOO Z7 5G" password "deadpool"

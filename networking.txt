@@ -58,3 +58,26 @@ OSI MODEL VERY IMP FOR INTERVIEW;
 	
 
 
+
+
+
+DNS:
+sub-domain, secondary domain, top level domain
+	root dns server: top level domain, .io, .org,.com,   --first contact 
+	rootsever.org
+	top level domain: orgainsation specific ie : io - for educational, org- for not profitable orgainsation or general use also, .com - for commercial orgainsation, .in,.uk etc coutry specific;
+	top level domain manage by ikan ;
+
+	TO FIND IP ADDRESS OF A DOMAIN NAME	: first it checks in own computer(local storage), it not there then , ISP, then root server rootserver.org, then Top level domain (TLD) ie ikan; 
+	
+You can't buy a domain name but can rent it. 
+dig google.com; server: ip address of google, saved in local ; 
+man dig: dns lookup utility; 
+
+TCP/IP MODEL OF APPLICATION LAYER ENDS AND TRANSPORT LAYER STARTS
+	this layer has protocols ie tcp/udp , perform checksom and check shortest path. all 5 osi model layer lie in own device
+	also manage port system etc ...
+	
+	multiplexing and demultiplaxing:
+	sockets: connection between internet an application creates a socket using an api provided by os (eg: socket()in C and socket.socket()in python), stream socket(TCP), datagram Socket(UDP)...
+		

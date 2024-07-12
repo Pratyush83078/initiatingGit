@@ -1,5 +1,5 @@
 sudo apt install gnome-tweaks .gnome-shell-extension-manager
-sudo apt install preload ,bleachbit,mpv , git, alien, ./touchegg_2.0.17_amd64.deb (in Downloads folder) ,python3-pip, geany,tasksel, devilspie2,nightshift;
+sudo apt install preload ,bleachbit,mpv , git, alien, ./touchegg_2.0.17_amd64.deb (in Downloads folder) ,python3-pip, geany,tasksel, devilspie2,nightshift,brightnessctl,acpi;
 
 
 sudo apt flatpak install flathub com.github.joseexposito.touche ,flatpak install flathub com.github.hluk.copyq

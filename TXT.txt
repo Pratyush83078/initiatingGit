@@ -6,3 +6,25 @@ pkill -9 firefox; //for force kill
 sudo dpkg-reconfigure lightdm, gdm3
 xinput set-prop 11 "libinput Tapping Enabled" 1
 redshift -P -O 2500
+prem@Vostro-3478:/etc/X11/xorg.conf.d$ sudo nano 30-touchpad.conf
+xinput disable/enable <id>
+acpi
+# Logout
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# Lockscreen (install i3lock if not already installed)
+bindsym $mod+l exec i3lock -c 000000
+
+display manager: handle user login and session initialization; GDM (support both x11, wayland), SDDM (kde), LightDM, XDM, SLiM , 
+
+DISPLAY SERVER:
+
+DESKTOP ENVIRONMENT/window manager:
+WINDOW TILING MANAGER:
+
+backup,lightdm
+
+sudo apt install lightdm --no-install-recommends
+
+* = all ie sudo rm rf * #to delete all files 
+
+sudo tcpdump -c 10
