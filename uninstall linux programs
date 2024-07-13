@@ -32,4 +32,4 @@ uninstalling: sudo rm -rf pydoc3.12 ; /usr/local/bin; self installed app
 2nd method very simple and recommended
 sudo alien -d <compress-file-name> ; d means debian ; alien package change tar.gz to debian 
 TO INSTALL DEBIAN FILE ;
-sudo apt install <debian file-name> ; for deletion same as apt file deletion ie sudo apt purge firefox;
+sudo apt install <debian file-name> sudo dpkg -i firefox; for deletion same as apt file deletion ie sudo apt purge firefox; 

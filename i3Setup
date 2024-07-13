@@ -1,7 +1,16 @@
 I3 INSTALLATION i3, startx(x11,xorg)
-light , redshift , $mod Mod4 , a file manager pacmanfm, terminal file manager (rover,nnn),aslatter/ppa (alacritty),
-
+light , redshift , $mod Mod4 , a file manager pcmanfm, terminal file manager (rover,nnn),aslatter/ppa (alacritty),ungoogled chromium best, feh
+ --no-install-recommends
 generally i download packages by sudo apt install etc but after that i forget about it ..
 what is --no-startup-id
 
-nmcli dev wifi connect "iQOO Z7 5G" password "deadpool"
+nmcli dev wifi connect "iQOO Z7 5G" password "deadpool", 
+
+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
+git config --global credential.helper store
+git config --global credential.helper cache
+
+
+zsh,oh my zsh
+
+laptop button, i3bar i3blocks,
